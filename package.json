@@ -1,0 +1,24 @@
+{
+  "name": "meta1-kafka-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:publisher": "node publisher/index.js",
+    "start:subscriber": "node subscriber/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/utf4/meta1-kafka-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/utf4/meta1-kafka-node/issues"
+  },
+  "homepage": "https://github.com/utf4/meta1-kafka-node#readme",
+  "dependencies": {
+    "avsc": "^5.7.4",
+    "node-rdkafka": "^2.13.0"
+  }
+}
